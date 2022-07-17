@@ -3,6 +3,7 @@ lazerpay = LazerPayFinance('sk_test_Fh4xj28OXmTO3Ou08zu9xl9h4nslTysGugQI0l3s6J2b
 ref = lazerpay.createReferenceString(20)
 print("ref => " + str(ref))
 walletbalance = lazerpay.walletBalance('USDT')
+#Note only limited number of token supported.
 print("wallet_balance =>")
 print(walletbalance)
 #initializePayment
